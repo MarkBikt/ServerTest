@@ -23,7 +23,7 @@ public class AllRequestsServlet extends HttpServlet {
 
         response.getWriter().println(request.getParameter("key"));
 
-        //System.out.println("doGET");
+        System.out.println("doGET");
     }
 
     @Override
