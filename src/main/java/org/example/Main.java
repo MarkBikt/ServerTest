@@ -8,7 +8,6 @@ public class Main {
     public static void main(String[] args) {
         AllRequestsServlet frontend = new AllRequestsServlet();
 
-
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
         context.addServlet(new ServletHolder(frontend), "/mirror");
 
